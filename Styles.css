@@ -4,7 +4,7 @@ body{
 }
 .assignment{
     padding: 10px;
-    
+    display: flex;
 }
 .assignment img{
     width: 400px;
