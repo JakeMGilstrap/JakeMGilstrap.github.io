@@ -4,13 +4,19 @@ body{
 }
 .assignment{
     padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
     display: flex;
     background: darkturquoise;
+    border-radius:5px;
+    box-shadow: 5px 10px black;
 }
 .assignment img{
     width: 400px;
+    border-radius: 5px;
     padding: 10px;
     border: 2px solid black
+
 }
 
 
@@ -21,6 +27,11 @@ body{
 
     a {
 text-decoration:none;
-color:ivory;
+color: black;
 
+    }
+
+    .assignment a:hover
+    {
+        color: ivory;
     }
